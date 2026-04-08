@@ -31,6 +31,7 @@
 \usepackage{changepage} % 用于单列条目 (adjustwidth 环境)
 \usepackage{paracol} % 用于双列和三列条目
 \usepackage{needspace} % 用于避免在章节标题后紧接着直接分页
+\usepackage{graphicx} % 必须添加此行才能显示图片
 % \usepackage{lastpage} % 用于获取总页数
 
 
@@ -151,6 +152,10 @@
         \AND%
         \kern 5.0 pt%
         \mbox{\hrefWithoutArrow{https://github.com/zheshigewenti}{github.com/zheshigewenti}}%
+\begin{minipage}[b]{0.45\textwidth} % 增加右侧照片区域比例
+        \raggedleft
+        \includegraphics[height=3cm,width=4cm, angle=-90, origin=c]{1.jpg} 
+    \end{minipage}
     \end{header}
 
     \vspace{5 pt - 0.3 cm}
