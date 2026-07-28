@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  11 JUN 2026 18:00
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/nixos.org) (preloaded format=xelatex 1980.1.1)  29 JUL 2026 07:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,11 +7,11 @@ entering extended mode
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/base/size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
@@ -27,20 +27,20 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
@@ -57,32 +57,32 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks18
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
@@ -90,34 +90,34 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count282
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count283
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
@@ -126,17 +126,17 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@linkcounter=\count284
 \Hy@pagecounter=\count285
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count286
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
@@ -150,7 +150,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count287
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -158,11 +158,11 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen158
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
@@ -183,7 +183,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/hyperref/hxetex.def
 File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \pdfm@box=\box53
@@ -192,11 +192,11 @@ File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
 \Fld@listcount=\count294
 \c@bookmark@seq@number=\count295
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -205,13 +205,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/ctex.sty
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/l3kernel/expl3.sty
 Package: expl3 2026-01-19 L3 programming layer (loader) 
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count296
@@ -220,19 +220,19 @@ File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 ))
 Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
@@ -497,19 +497,19 @@ t line 194.
 \g__ctex_section_depth_int=\count300
 \g__ctex_font_size_int=\count301
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2025-10-09 L3 Experimental prototype document functions
 )
@@ -574,15 +574,15 @@ LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
 \l__xeCJK_verb_case_int=\count313
 \l__xeCJK_verb_exspace_skip=\skip58
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontspec/fontspec.sty
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/l3packages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 X
@@ -601,13 +601,13 @@ X
 \l__fontspec_tmpb_dim=\dimen190
 \l__fontspec_tmpc_dim=\dimen191
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontspec/fontspec.cfg)))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
@@ -616,30 +616,30 @@ File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 )
 \l__ctex_ziju_dim=\dimen193
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count325
 \l__zhnum_tmp_int=\count326
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/scheme/ctex-scheme-chinese.def
 File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CT
 EX)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 ))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/fontset/ctex-fontset-fandol.def
 File: ctex-fontset-fandol.def 2022/07/14 v2.5.10 Fandol fonts definition (CTEX)
 
@@ -671,11 +671,11 @@ t;"
 ;"
 
 ))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box57
@@ -688,7 +688,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen197
 \titlewidthfirst=\dimen198
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count327
@@ -702,11 +702,11 @@ LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count329
 \calc@Cskip=\skip64
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen257
@@ -725,21 +725,21 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@cols=\count330
 \TX@ftn=\toks21
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics-def/xetex.def
 File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -750,11 +750,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip67
@@ -764,51 +764,51 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count331
 \enitdp@description=\count332
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontawesome5/fontawesome5-utex-helper.sty
 Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
 e5
 LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
 nput line 69.
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontawesome5/tufontawesomefree.fd)
 LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
  input line 70.
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/fontawesome5/tufontawesomebrands.fd)))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip68
 
 For additional information on amsmath, use the `?' option.
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen265
 ))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen266
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
@@ -860,22 +860,22 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count345
 ))
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count346
 \cp@tempcnt=\count347
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/paracol/paracol.sty
 Package: paracol 2025/07/14 1.37 typeset columns in parallel
 \pcol@currcol=\count348
@@ -904,23 +904,23 @@ Package: paracol 2025/07/14 1.37 typeset columns in parallel
 \pcol@colorins=\insert252
 \pcol@everyvbox=\toks28
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/needspace/needspace.sty
 Package: needspace 2025/03/13 v1.3e reserve vertical space
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(/nix/store/g4a50rj7ymkac4cz7kl75xvgsjvg0g1i-texlive-combined-2025-texmfdist/te
+(/nix/store/4w9hpm3h4szp7d10n4aarz07xxkjk2iy-texlive-combined-2025-texmfdist/te
 x/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
@@ -1059,7 +1059,7 @@ L3 programming layer <2022/07/14>
 Here is how much of TeX's memory you used:
  18515 strings out of 469708
  381524 string characters out of 5459450
- 842714 words of memory out of 5000000
+ 848714 words of memory out of 5000000
  46905 multiletter control sequences out of 15000+600000
  632620 words of font info for 74 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
