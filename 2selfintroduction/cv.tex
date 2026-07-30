@@ -1,78 +1,51 @@
 \documentclass[10pt, letterpaper]{article}
 
-% 宏包 (Packages):
+% ==================== 宏包导入 ====================
 \usepackage[
     ignoreheadfoot, % 设置页边距时不考虑页眉和页脚
     top=2 cm, % 正文内容与页面顶边缘的间距
     bottom=2 cm, % 正文内容与页面底边缘的间距
     left=2 cm, % 正文内容与页面左边缘的间距
-    right=2 cm, % 正文内容与页面右边缘的间距
-    % footskip=1 cm, % 正文与页脚之间的间距
-    % showframe % 用于调试显示页面框架 
+    right=2 cm % 正文内容与页面右边缘的间距
 ]{geometry} % 用于调整页面几何结构
 \usepackage[
-    pdftitle={CV},
-    pdfauthor={dzn},
-    pdfcreator={LaTeX},
-    colorlinks=true,
-    urlcolor=primaryColor
+    pdftitle={CV}, % 设置 PDF 的标题元数据
+    pdfauthor={戴正楠}, % 设置 PDF 的作者元数据
+    pdfcreator={LaTeX}, % 设置 PDF 的创建者元数据
+    colorlinks=true, % 开启超链接彩色显示
+    urlcolor=primaryColor % 设置超链接的颜色
 ]{hyperref} % 用于链接、元数据和书签
-\usepackage[UTF8]{ctex} % 仅负责中文
-\usepackage{titlesec} % 用于自定义章节标题
-\usepackage{calc}
+\usepackage[UTF8]{ctex} % 仅负责中文支持
+\usepackage{titlesec} % 用于自定义章节标题格式
+\usepackage{calc} % 用于计算长度表达式
 \usepackage{tabularx} % 用于制作带固定宽度列的表格
-\usepackage{array} % tabularx 宏包的依赖项
-\usepackage[dvipsnames]{xcolor} % 用于设置文本颜色
-\definecolor{primaryColor}{RGB}{0, 0, 0} % 定义主色调
-\usepackage{enumitem} % 用于自定义列表
-\usepackage{fontawesome5} % 用于使用图标
-\usepackage{amsmath} % 用于数学公式
-\usepackage{bookmark} % 用于书签
-\usepackage{changepage} % 用于单列条目 (adjustwidth 环境)
-\usepackage{paracol} % 用于双列和三列条目
+\usepackage[dvipsnames]{xcolor} % 用于设置文本颜色与高级色彩
+\definecolor{primaryColor}{RGB}{0, 0, 0} % 定义自定义的主色调
+\usepackage{enumitem} % 用于自定义列表环境
+\usepackage{fontawesome5} % 用于使用 FontAwesome 5 图标
+\usepackage{amsmath} % 用于数学公式排版
+\usepackage{changepage} % 用于单列条目及调整页边距 (adjustwidth 环境)
+\usepackage{paracol} % 用于实现多列并排布局 (双列和三列条目)
 \usepackage{needspace} % 用于避免在章节标题后紧接着直接分页
-\usepackage{graphicx} % 必须添加此行才能显示图片
-% \usepackage{lastpage} % 用于获取总页数
+\usepackage{graphicx} % 必须添加此行才能插入和显示图片
 
-
-% 一些设置 :
+% ==================== 全局样式设置 ====================
 \raggedright
-\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % 取消换行引起的格外垂直边距 
-\pagestyle{empty} % 不显示页眉或页脚
-\setcounter{secnumdepth}{0} % 取消章节编号
-\setlength{\parindent}{0pt} % 取消缩进
-\setlength{\topskip}{0pt} % 取消顶部间距
-\setlength{\columnsep}{0.15cm} % 设置列间距
-\pagenumbering{gobble} % 不显示页码
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
-\titlespacing{\section}{
-    % 左侧间距:
-    -1pt
-}{
-    % 顶部间距:
-    0.3 cm
-}{
-    % 底部间距:
-    0.2 cm
-} % 章节标题间距设置
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
 
-\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % 自定义列表符号
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
 \newenvironment{highlights}{
-    \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
-        partopsep=0pt,
-        itemsep=0pt,
-        leftmargin=0 cm + 10pt
-    ]
-}{
-    \end{itemize}
-} % 高亮内容的新环境
-
-
-\newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
         topsep=0.10 cm,
         parsep=0.10 cm,
@@ -82,17 +55,13 @@
     ]
 }{
     \end{itemize}
-} % 带项目符号条目的高亮内容新环境
+}
 
 \newenvironment{onecolentry}{
-    \begin{adjustwidth}{
-        0 cm + 0.00001 cm
-    }{
-        0 cm + 0.00001 cm
-    }
+    \begin{adjustwidth}{0 cm + 0.00001 cm}{0 cm + 0.00001 cm}
 }{
     \end{adjustwidth}
-} % 单列条目的新环境
+}
 
 \newenvironment{twocolentry}[2][]{
     \onecolentry
@@ -103,7 +72,7 @@
     \switchcolumn \raggedleft \secondColumn
     \end{paracol}
     \endonecolentry
-} % 双列条目的新环境
+}
 
 \newenvironment{threecolentry}[3][]{
     \onecolentry
@@ -115,24 +84,18 @@
     \switchcolumn \raggedleft \thirdColumn
     \end{paracol}
     \endonecolentry
-} % 三列条目的新环境
+}
 
 \newenvironment{header}{
     \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
 }{
     \par\kern\topsep
-} % 页眉的新环境
+}
 
-% 将原始的 href 命令保存到一个新命令中：
 \let\hrefWithoutArrow\href
 
-
-
-
+% ==================== 正文开始 ====================
 \begin{document}
-
-
-
 
     \newcommand{\AND}{\unskip
         \cleaders\copy\ANDbox\hskip\wd\ANDbox
@@ -141,149 +104,116 @@
     \newsavebox\ANDbox
     \sbox\ANDbox{$|$}
 
+    % 个人信息页眉
     \begin{header}
         \fontsize{25 pt}{25 pt}\selectfont 戴正楠
 
         \vspace{5 pt}
 
-        \begin{minipage}[t]{0.52\textwidth}
+        \begin{minipage}[t]{0.55\textwidth}
             \raggedright
-            \vspace{1cm} % 整体往下挪一点
+            \vspace{1cm}
             \normalsize
-            \mbox{江苏南京}%
-            \kern 5.0 pt%
-            \AND%
-            \kern 5.0 pt%
-            \mbox{18018095479}%
-            \kern 5.0 pt%
-            \AND%
-            \kern 5.0 pt%
-            \mbox{\hrefWithoutArrow{https://github.com/zheshigewenti}{github.com/zheshigewenti}}%
+            \mbox{江苏 南京}\kern 5.0 pt\AND\kern 5.0 pt%
+            \mbox{18018095479}\kern 5.0 pt\AND\kern 5.0 pt%
+            \mbox{\hrefWithoutArrow{https://github.com/zheshigewenti}{github.com/zheshigewenti}}
 
             \vspace{3 pt}
 
             \normalsize
-            \mbox{年龄: 28}%
-            \kern 5.0 pt%
-            \AND%
-            \kern 5.0 pt%
-            \mbox{身高: 175cm}%
-            \kern 5.0 pt%
-            \AND%
-            \kern 5.0 pt%
-            \mbox{体重: 66kg}%
+            \mbox{年龄：28}\kern 5.0 pt\AND\kern 5.0 pt%
+            \mbox{身高：175 cm}\kern 5.0 pt\AND\kern 5.0 pt%
+            \mbox{体重：66 kg}
         \end{minipage}%
-        \begin{minipage}[t]{0.45\textwidth}
+        \begin{minipage}[t]{0.40\textwidth}
             \raggedleft
             \vspace{-\baselineskip}
-            \includegraphics[height=3cm,width=4cm, angle=-90, origin=c]{1.jpg} 
+            \includegraphics[height=3cm, width=4cm, angle=-90, origin=c]{1.jpg} 
         \end{minipage}
     \end{header}
 
-    \vspace{5 pt - 0.3 cm}
+    \vspace{2 pt}
 
+    % 教育背景
+    \section{教育背景}
+    \begin{twocolentry}{2017/09 – 2021/05}
+        \textbf{金陵科技学院}，土木工程
+    \end{twocolentry}
 
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{GPA：} 3.9 / 5.0 
+            \item \textbf{主修课程：} 结构力学、土力学、材料力学、理论力学            
+        \end{highlights}
+    \end{onecolentry}
 
+    % 工作经历
+    \section{工作经历}
+    \begin{twocolentry}{2021/07 – 2022/06}
+        \textbf{结构工程师}，AGG新能源责任有限公司
+    \end{twocolentry}
 
-    
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item 开展光伏铝合金边框的有限元分析，优化结构强度
+            \item 负责光伏瓦防水处理方案的设计与实施
+            \item 熟练运用 Rhino 进行建模与工程图绘制          
+        \end{highlights}
+    \end{onecolentry}
 
+    \vspace{0.2 cm}
 
+    \begin{twocolentry}{2023/09 – 2025/06}
+        \textbf{监理工程师}，中核工程咨询有限公司
+    \end{twocolentry}
 
-    \section{教育}
-        \begin{twocolentry}{
-            2017/09 –  2021/05
-        }
-            \textbf{金陵科技学院},土木工程\end{twocolentry}
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item 负责管道焊接工作流程监管，确保施工符合核电安全标准
+            \item 全程参与项目监理，严格把控工程质量与进度     
+        \end{highlights}
+    \end{onecolentry}
 
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item GPA: 3.9/5.0 
-                \item \textbf{Coursework:} 结构力学、土力学、材料力学、理论力学            \end{highlights}
-        \end{onecolentry}
+    % 项目经历
+    \section{项目经历}
+    \begin{twocolentry}{2023/03 – 2024/03}
+        \textbf{田湾核电站 7、8 号机组核岛安装工程}
+    \end{twocolentry}
 
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item 验证焊缝标记及缺陷定位、挖凿打磨及凿开尺寸验证、对焊接部分进行液体渗透检验、焊接旁站、焊接目视检验、射线检验旁站
+            \item 负责核岛底座隐蔽工程验收及相关螺丝扭矩测试检验
+        \end{highlights}
+    \end{onecolentry}
 
+    \vspace{0.20 cm}
 
-    
-    \section{经历}
-        \begin{twocolentry}{
-            2021/07 – 2022/06
-        }
-            \textbf{结构工程师}, AGG新能源责任有限公司\end{twocolentry}
+    \begin{twocolentry}{2024/04 – 2025/06}
+        \textbf{中核汇能湖南省居民屋顶分布式光伏发电项目 EPC 总承包}
+    \end{twocolentry}
 
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item 开展光伏铝合金边框的有限元分析，优化结构强度
-                \item 负责光伏瓦防水处理方案的设计与实施
-                \item 熟练运用 Rhino 进行建模与工程图绘制          
-            \end{highlights}
-        \end{onecolentry}
+    \vspace{0.10 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item 负责 60MW 分布式光伏 EPC 总承包项目的全流程技术统筹与外部协调，跟进项目确户、房屋荷载安全检测及相关行政审批工作
+            \item 主导多类型屋顶勘察与结构复核，优化光伏支架选型及关键主材技术标准，保障系统全生命周期安全规范
+            \item 统筹项目现场施工进度与工程质量，严格把控组件排布、支架防腐、电气布线及并网箱安装等核心工艺
+            \item 组织开展单体调试、分系统试运行及消防、环保、并网安全性评价等全套专项竣工验收，实现项目顺利交付
+        \end{highlights}
+    \end{onecolentry}
 
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            2023/09 –2025/06
-        }
-            \textbf{监理工程师}, 中核工程咨询有限公司\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-               \item 负责管道焊接工作流程监管，确保施工符合核电安全标准
-                \item 全程参与项目监理，把控工程质量与进度     
-            \end{highlights}
-        \end{onecolentry}
-
-
-
-    
- 
-    
-    \section{项目}
-        \begin{twocolentry}{
-        }
-            \textbf{田湾核电站7、8号机组核岛安装工程}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item 验证焊缝标记及缺陷定位、挖凿打磨及凿开尺寸验证、对焊接部分进行液体渗透检验、焊接旁站、焊接目视检验、射线检验旁站
-                \item 核岛底座隐蔽工程验收、相关螺丝扭矩测试检验
-            \end{highlights}
-        \end{onecolentry}
-        \vspace{0.20 cm}
-        \begin{twocolentry}
-        
-            \textbf{中核汇能湖南省居民屋顶分布式光伏发电项目EPC总承包}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item 负责60MW分布式光伏EPC总承包项目的全流程技术统筹与外部协调，跟进项目确户、房屋荷载安全检测及相关行政审批工作
-                \item 主导多类型屋顶勘察与结构复核，优化光伏支架选型及关键主材技术标准，保障系统全生命周期安全规范
-                \item 统筹项目现场施工进度与工程质量，严格把控组件排布、支架防腐、电气布线及并网箱安装等核心工艺
-                \item 组织开展单体调试、分系统试运行及消防、环保、并网安全性评价等全套专项竣工验收，实现项目顺利交付
-            \end{highlights}
-        \end{onecolentry}
-
-
-
-
-
-    \section{技能}
-        \begin{onecolentry}
-            \textbf{Computer Languages:}  C, Nix, Lua,LaTex
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{onecolentry}
-            \textbf{Technologies:} Neovim,Nixpkgs, CAD, Rhino,Linux,熟练使用ai
-        \end{onecolentry}
-
-
-    
+    % 技能特长
+    \section{技能特长}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{开发语言：} C, Nix, Lua, LaTeX
+            \item \textbf{技术栈与工具：} Neovim, Nixpkgs, CAD, Rhino, Linux, 熟练使用 AI 辅助工具
+        \end{highlights}
+    \end{onecolentry}
 
 \end{document}
